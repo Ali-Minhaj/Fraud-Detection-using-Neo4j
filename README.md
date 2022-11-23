@@ -1,0 +1,58 @@
+# Fraud-Detection-using-Neo4j
+
+= Fraud Detection Using Neo4j Platform and PaySim Dataset
+:presenter: Neo Technology
+:twitter: neo4j
+:email: info@neotechnology.com
+:neo4j-version: 4.x
+:currentyear: 2022
+:doctype: book
+:toc: left
+:toclevels: 3
+:currsect: 0
+:html: http://localhost:8001/html
+
+
+== Fraud Detection and Investigation Using Graph Data Science Library
+
+Example GDS workflow to demonstrate fraud detection and investigation using Neo4j Graph Data Science. This browser guide contains snippets of cypher code and a brief explanation in each slide to help with the demo.
+
+We will use the GDS Library to get you started with few scenarios in first party and synthetic identity fraud detection and investigation.
+
+== Problem Definition
+
+=== *What is Fraud?*
+
+*Fraud occurs* when an individual or group of individuals, or a business entity *intentionally* deceives another individual or business entity with *misrepresentation* of identity, products, services, or financial transactions and/or *false promises* with no intention of fulfilling them.
+
+{nbsp} + 
+
+=== *Fraud Categories*
+
+* *First-party Fraud*
+** An individual, or group of individuals, misrepresent their identity or give false information when applying for a product or services to receive more favourable rates or when have no intention of repayment.
+
+* *Second-party Fraud*
+** An individual knowingly gives their identity or personal information to another individual to commit fraud or someone is perpetrating fraud in his behalf.
+
+* *Third-party Fraud*
+** An individual, or a group of individuals, create or use another person's identity, or personal details, to open or takeover an account.
+
+== Exercises
+
+We will use Neo4j GDS library to detect and label two types of fraudsters
+
+. First party fraudsters (Module #1)
+. Money Mules (Module #2)
+
+== Preliminary Data Analysis
+
+We will use Paysim dataset for the hands-on exercises. Paysim is a synthetic dataset that mimics real world mobile money transfer network.
+
+Let's explore the dataset.
+
+. Database Schema and Stats
+. Nodes and Relationships
+. Transaction Types
+
+For more information on the dataset, please visit  https://www.sisu.io/posts/paysim/[Dave Voutila's Blog^]
